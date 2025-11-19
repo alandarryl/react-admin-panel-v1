@@ -24,8 +24,8 @@ function SideBar(){
 
             <div className="items" >
                 <li><FaChartBar className="icons"/> <a href="#" >Dashboard</a> </li>
-                <li><FaTable className="icons" /> <a href="#" >Table</a> </li>
-                <li className="active" ><FaEdit className="icons" /> <a href="#" >Form</a> </li>
+                <li className="active" ><FaTable className="icons" /> <a href="#" >Table</a> </li>
+                <li><FaEdit className="icons" /> <a href="#" >Form</a> </li>
                 <li><FaIdCard className="icons" /> <a href="#" >Card</a> </li>
                 <li><FaListOl className="icons" /> <a href="#" >Modal</a> </li>
                 <li><FaSignal className="icons"/> <a href="#" >Stats</a> </li>
