@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import SideBar from './components/sidebar/SideBar';
+import Interface from './components/interface/Interface';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,7 @@ function App() {
   return (
     <>
     <SideBar/>
-      <h1>Vite + React</h1>
+    <Interface/>
     </>
   )
 }

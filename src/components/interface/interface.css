@@ -1,0 +1,6 @@
+
+.interface{
+    width: calc(100% - 300px);
+    margin-left: 300px;
+    position: relative;
+}
