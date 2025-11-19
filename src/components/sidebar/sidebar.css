@@ -47,8 +47,11 @@
 
 .side-bar .items li{
     list-style: none;
-    padding: 15px 0;
+    padding: 20px 0;
     transition: 0.3 ease;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
 }
 
 .side-bar .items li.active{
@@ -62,27 +65,22 @@
 
 .side-bar .items li .icons{
     color: rgb(134, 141, 151);
-    width: 30px;
-    height: 30px;
     line-height: 30px;
     text-align: center;
-    font-size: 14px;
+    /* font-size: 22px; */
     margin: 0 10px 0 25px;
 }
 
-    /* FaPieChart,
-    FaTable,
-    FaPencil,
-    FaIdCard,
-    FaListOl,
-    FaLineChart{
+.side-bar .items li:hover .icons,
+.side-bar .items li:hover a{
+    color: #f3f4f6;
+}
+
+.side-bar .items li a{
+    text-decoration: none;
     color: rgb(134, 141, 151);
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    font-size: 14px;
-    margin: 0 10px 0 25px;
-    } */
+    font-weight: 300px;
+    transition:  0.3s ease;
+}
 
 

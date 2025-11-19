@@ -2,12 +2,12 @@
 import "./sidebar.css";
 
 import {
-    FaChartBar,  // Remplace FaPieChart (pour Dashboard)
+    FaChartBar,
     FaTable,
-    FaEdit,      // Remplace FaPencil (pour Form)
+    FaEdit,
     FaIdCard,
     FaListOl,
-    FaSignal     // Remplace FaLineChart (pour Stats)
+    FaSignal
 } from 'react-icons/fa';
 
 
@@ -23,7 +23,7 @@ function SideBar(){
             </div>
 
             <div className="items" >
-                <li><FaChartBar className="icons" /> <a href="#" >Dashboard</a> </li>
+                <li><FaChartBar className="icons"/> <a href="#" >Dashboard</a> </li>
                 <li><FaTable className="icons" /> <a href="#" >Table</a> </li>
                 <li className="active" ><FaEdit className="icons" /> <a href="#" >Form</a> </li>
                 <li><FaIdCard className="icons" /> <a href="#" >Card</a> </li>
