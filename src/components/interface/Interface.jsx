@@ -4,6 +4,10 @@ import "./interface.css";
 
 import NavBar from "../navbar/NavBar";
 
+// import all pages
+import TablePage from "../../pages/stats/StatPage";
+import StatPage from "../../pages/stats/StatPage";
+
 function Interface(){
 
     return(
@@ -12,7 +16,8 @@ function Interface(){
             <h1>Vite + React</h1>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" />
+                    <Route path="/" element={<StatPage/>} />
+                    <Route path="/table" element={<TablePage/>} />
                 </Routes>
             </BrowserRouter>
         </div>
