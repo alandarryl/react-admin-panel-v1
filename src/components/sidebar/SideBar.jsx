@@ -1,6 +1,15 @@
 
 import "./sidebar.css";
 
+import {
+    FaChartBar,  // Remplace FaPieChart (pour Dashboard)
+    FaTable,
+    FaEdit,      // Remplace FaPencil (pour Form)
+    FaIdCard,
+    FaListOl,
+    FaSignal     // Remplace FaLineChart (pour Stats)
+} from 'react-icons/fa';
+
 
 function SideBar(){
 
@@ -14,12 +23,12 @@ function SideBar(){
             </div>
 
             <div className="items" >
-                <li><i className="fa fa-pie-chart" ></i> <a href="#" >Dashboard</a> </li>
-                <li><i className="fa fa-table" ></i> <a href="#" >Table</a> </li>
-                <li className="active" ><i className="fa fa-pencil" ></i> <a href="#" >Form</a> </li>
-                <li><i className="fa fa-id-card" ></i> <a href="#" >Card</a> </li>
-                <li><i className="fa fa-list-ol" ></i> <a href="#" >Modal</a> </li>
-                <li><i className="fa fa-line-chart" ></i> <a href="#" >Stats</a> </li>
+                <li><FaChartBar className="icons" /> <a href="#" >Dashboard</a> </li>
+                <li><FaTable className="icons" /> <a href="#" >Table</a> </li>
+                <li className="active" ><FaEdit className="icons" /> <a href="#" >Form</a> </li>
+                <li><FaIdCard className="icons" /> <a href="#" >Card</a> </li>
+                <li><FaListOl className="icons" /> <a href="#" >Modal</a> </li>
+                <li><FaSignal className="icons"/> <a href="#" >Stats</a> </li>
             </div>
 
 
