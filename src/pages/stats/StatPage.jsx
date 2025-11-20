@@ -1,12 +1,13 @@
 
 import './statpage.css';
 
-
 function StatPage(){
 
 
     return(
-        <div></div>
+        <div>
+            <h3 className='i-name' >Interface stats</h3>
+        </div>
     )
 
 }

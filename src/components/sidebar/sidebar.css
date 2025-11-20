@@ -6,6 +6,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    /* display: none; */
 }
 
 .side-bar .logo{
@@ -72,11 +73,11 @@
 }
 
 .side-bar .items li:hover .icons,
-.side-bar .items li:hover a{
+.side-bar .items .a:hover{
     color: #f3f4f6;
 }
 
-.side-bar .items li a{
+.side-bar .items .a{
     text-decoration: none;
     color: rgb(134, 141, 151);
     font-weight: 300px;

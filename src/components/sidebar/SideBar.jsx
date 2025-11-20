@@ -10,6 +10,7 @@ import {
     FaSignal
 } from 'react-icons/fa';
 
+import { Link } from "react-router-dom";
 
 function SideBar(){
 
@@ -23,12 +24,12 @@ function SideBar(){
             </div>
 
             <div className="items" >
-                <li><FaChartBar className="icons"/> <a href="#" >Dashboard</a> </li>
-                <li className="active" ><FaTable className="icons" /> <a href="#" >Table</a> </li>
-                <li><FaEdit className="icons" /> <a href="#" >Form</a> </li>
-                <li><FaIdCard className="icons" /> <a href="#" >Card</a> </li>
-                <li><FaListOl className="icons" /> <a href="#" >Modal</a> </li>
-                <li><FaSignal className="icons"/> <a href="#" >Stats</a> </li>
+                <Link className="a" to="/" ><li><FaChartBar className="icons"/> Dashboard</li></Link> 
+                <Link className="a"  to="/table" ><li className="active" ><FaTable className="icons" /> Table </li></Link>
+                <Link className="a"  to="/form" ><li><FaEdit className="icons" /> Form </li></Link>
+                <Link className="a"  to="/card" ><li><FaIdCard className="icons" /> Card </li></Link>
+                <Link className="a"  to="/modal" ><li><FaListOl className="icons" /> Modal</li></Link> 
+                <Link className="a"  to="/stats" ><li><FaSignal className="icons"/> Stats</li></Link> 
             </div>
 
 

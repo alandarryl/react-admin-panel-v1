@@ -27,7 +27,7 @@ function NavBar(){
 
             <div className='profile' >
                 <FaBell className='bell-icon' />
-                <img src='' alt='profile image' />
+                <img src='#' alt='profile image' />
             </div>
 
         </div>

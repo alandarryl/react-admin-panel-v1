@@ -12,8 +12,8 @@ function App() {
 
   return (
     <>
-    <SideBar/>
-    <Interface/>
+          <SideBar/>
+          <Interface/>
     </>
   )
 }
