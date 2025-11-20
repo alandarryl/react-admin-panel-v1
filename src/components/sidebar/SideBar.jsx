@@ -10,9 +10,17 @@ import {
     FaSignal
 } from 'react-icons/fa';
 
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function SideBar(){
+
+    const location = useLocation();
+
+    const isActive = (path) =>{
+
+        return location.pathname === path;
+
+    }
 
 
     return(
@@ -24,12 +32,29 @@ function SideBar(){
             </div>
 
             <div className="items" >
-                <Link className="a" to="/" ><li><FaChartBar className="icons"/> Dashboard</li></Link> 
-                <Link className="a"  to="/table" ><li className="active" ><FaTable className="icons" /> Table </li></Link>
-                <Link className="a"  to="/form" ><li><FaEdit className="icons" /> Form </li></Link>
-                <Link className="a"  to="/card" ><li><FaIdCard className="icons" /> Card </li></Link>
-                <Link className="a"  to="/modal" ><li><FaListOl className="icons" /> Modal</li></Link> 
-                <Link className="a"  to="/stats" ><li><FaSignal className="icons"/> Stats</li></Link> 
+                <Link className="a" to="/" >
+                    <li className={isActive('/') ? 'active' : "" } ><FaChartBar className="icons"/> Dashboard</li>
+                </Link> 
+
+                <Link className="a"  to="/table" >
+                    <li className={isActive('/table') ? 'active' : "" } ><FaTable className="icons" /> Table </li>
+                </Link>
+
+                <Link className="a"  to="/form" >
+                    <li className={isActive('/form') ? 'active' : "" } ><FaEdit className="icons" /> Form </li>
+                </Link>
+
+                <Link className="a"  to="/card" >
+                    <li className={isActive('/card') ? 'active' : "" } ><FaIdCard className="icons" /> Card </li>
+                </Link>
+
+                <Link className="a"  to="/modal" >
+                    <li className={isActive('/modal') ? 'active' : "" } ><FaListOl className="icons" /> Modal</li>
+                </Link> 
+
+                <Link className="a"  to="/stats" >
+                    <li className={isActive('/stats') ? 'active' : "" } ><FaSignal className="icons"/> Stats</li>
+                </Link> 
             </div>
 
 
