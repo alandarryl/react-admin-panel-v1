@@ -1,0 +1,31 @@
+
+.val-box{
+    background: #fff;
+    width: 235px;
+    padding: 16px 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* margin-right: 15px; */
+}
+
+.val-box .icons{
+    font-size: 25px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.val-box h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.val-box span{
+    font-size: 15px;
+    color: #828997;
+}

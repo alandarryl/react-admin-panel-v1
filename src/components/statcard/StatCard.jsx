@@ -3,10 +3,16 @@
 import "./statcard.css";
 
 
-function StatCard(){
+function StatCard( {icon: Icon, color, value, category} ){
 
     return(
-        <div></div>
+        <div className="val-box" >
+            <Icon className="icons" color={color} />
+            <div>
+                <h3>{value}</h3>
+                <span> {category} </span>
+            </div>
+        </div>
     )
 
 }
