@@ -1,5 +1,7 @@
 .table-page{
-    width: 100%;
+    /* min-width: 1200px; */
+    /* width: calc(100% - 300px); */
+    min-width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -12,6 +14,9 @@
     margin-top: 70px;
 }
 
+/* @media (max-width: 769px){
+
+} */
 
 
 .board{
@@ -20,5 +25,14 @@
     margin: 30px 0 30px 30px;
     background: #fff;
     border-radius: 8px;
+}
+
+@media (max-width: 477px) {
+
+
+    .board{
+        margin: 30px 15px 30px 15px;
+    }
+
 }
 

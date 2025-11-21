@@ -1,7 +1,8 @@
 
 
 table{
-    width: 100%;
+    width: 950px;
+    /* width: calc(100% - 300px); */
     border-collapse: collapse;
     /* box-sizing: border-box; */
 }
@@ -19,5 +20,11 @@ thead td{
     padding: 15px;
 }
 
+@media (max-width: 800px){
 
+    .table{
+        width: calc(100% - 300px);
+    }
+
+}
 

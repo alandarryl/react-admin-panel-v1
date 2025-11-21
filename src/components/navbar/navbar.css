@@ -8,6 +8,7 @@
     padding: 15px 30px;
     border-bottom: 3px solid #594ef7;
     position: fixed;
+    top: 0;
     width: calc(100% - 300px);
 }
 
@@ -63,6 +64,31 @@
     margin-right: 20px;
 }
 
+/* responsive part */
+
+@media (max-width: 800px){
+
+    .menu-btn{
+        display: block;
+    }
+
+}
 
 
+@media (max-width: 477px) {
+
+
+    .navigation{
+        padding: 15px;
+    }
+
+    .navigation .search input{
+        width: 150px;
+    }
+
+    .board{
+        margin: 30px 15px 30px 15px;
+    }
+
+}
 

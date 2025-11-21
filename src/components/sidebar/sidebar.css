@@ -84,4 +84,20 @@
     transition:  0.3s ease;
 }
 
+/* responsive part */
+
+@media (max-width: 800px){
+    .side-bar{
+        width: 270px;
+        position: fixed;
+        left: -270px;
+        transition: 0.3s ease;
+    }
+
+    .side-bar.active{
+        left: 0;
+    }
+
+}
+
 

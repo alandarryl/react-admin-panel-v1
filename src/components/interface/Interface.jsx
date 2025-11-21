@@ -13,7 +13,7 @@ function Interface(){
     return(
         <div className="interface" >
         <NavBar />
-            <h1>Vite + React</h1>
+            {/* <h1>Vite + React</h1> */}
             {/* <BrowserRouter> */}
                 <Routes>
                     <Route path="/" element={<StatPage/>} />
