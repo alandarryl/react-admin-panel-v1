@@ -30,7 +30,7 @@ function TableRow({userImg, name, email, jobTitle, jobPost, activity, role}){
                 <p>{role} </p>
             </td>
 
-            <td className="edit" > <a>Edit</a> </td>
+            {/* <td className="edit" > <a>Edit</a> </td> */}
 
         </tr>
     )
