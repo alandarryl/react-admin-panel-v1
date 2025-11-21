@@ -7,6 +7,8 @@ import {
 
 import "./navbar.css";
 
+import userImage from "../../assets/profile.jpg";
+
 function NavBar(){
 
     return(
@@ -27,7 +29,7 @@ function NavBar(){
 
             <div className='profile' >
                 <FaBell className='bell-icon' />
-                <img src='#' alt='profile image' />
+                <img src={userImage} alt='profile image' />
             </div>
 
         </div>

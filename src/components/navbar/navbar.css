@@ -42,9 +42,9 @@
     font-weight: 400;
 }
 
-.navigation .profile .profile img{
-    width: 30px;
-    height: 30px;
+.navigation .profile img{
+    width: 40px;
+    height: 40px;
     object-fit: cover;
     border-radius: 50%;
 }

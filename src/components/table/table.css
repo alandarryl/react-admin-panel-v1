@@ -1,0 +1,23 @@
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    /* box-sizing: border-box; */
+}
+
+tr{
+    border-bottom: 1px solid #eef0f3;
+}
+
+thead td{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: start;
+    background: #f9fafb;
+    padding: 15px;
+}
+
+
+

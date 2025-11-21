@@ -1,8 +1,24 @@
+.table-page{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .i-name{
     color: #444a53;
     padding: 30px 30px 0 30px;
     font-size: 24px;
     font-weight: 700;
     margin-top: 70px;
+}
+
+
+
+.board{
+    width: 100%;
+    overflow: auto;
+    margin: 30px 0 30px 30px;
+    background: #fff;
+    border-radius: 8px;
 }
 
