@@ -45,5 +45,7 @@ tr td{
 }
 
 
-
+.edit a:hover{
+    cursor: pointer;
+}
 

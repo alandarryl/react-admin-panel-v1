@@ -4,33 +4,33 @@ import "./tablerow.css";
 
 import userImage from "../../../assets/profile.jpg";
 
-function TableRow(){
+function TableRow({userImg, name, email, jobTitle, jobPost, activity, role}){
 
     return(
         <tr>
 
             <td className="people" >
-                <img src={userImage} />
+                <img src={userImg} />
                 <div className="people-detail" >
-                    <h5>Jonathan OKANA</h5>
-                    <p>okanajonathan2@gmail.com</p>
+                    <h5> {name} </h5>
+                    <p>{email} </p>
                 </div>
             </td>
 
             <td className="people-position" >
-                <h5>Software Engineer</h5>
-                <p>Web dev</p>
+                <h5>{jobTitle} </h5>
+                <p>{jobPost} </p>
             </td>
 
             <td className="activity" >
-                <p>Active</p>
+                <p>{activity} </p>
             </td>
 
             <td className="role" >
-                <p>owner</p>
+                <p>{role} </p>
             </td>
 
-            <td className="edit" >Edit</td>
+            <td className="edit" > <a>Edit</a> </td>
 
         </tr>
     )
