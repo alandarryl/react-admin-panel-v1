@@ -41,19 +41,19 @@ function SideBar(){
                 </Link>
 
                 <Link className="a"  to="/form" >
-                    <li className={isActive('/form') ? 'active' : "" } ><FaEdit className="icons" /> Form </li>
+                    <li className={isActive('/form') ? 'active' : "" } ><FaEdit className="icons" /> Edit Info </li>
                 </Link>
 
                 <Link className="a"  to="/card" >
-                    <li className={isActive('/card') ? 'active' : "" } ><FaIdCard className="icons" /> Card </li>
+                    <li className={isActive('/card') ? 'active' : "" } ><FaIdCard className="icons" /> All Users </li>
                 </Link>
 
                 <Link className="a"  to="/modal" >
-                    <li className={isActive('/modal') ? 'active' : "" } ><FaListOl className="icons" /> Modal</li>
+                    <li className={isActive('/modal') ? 'active' : "" } ><FaListOl className="icons" /> Products List</li>
                 </Link> 
 
                 <Link className="a"  to="/stats" >
-                    <li className={isActive('/stats') ? 'active' : "" } ><FaSignal className="icons"/> Stats</li>
+                    <li className={isActive('/stats') ? 'active' : "" } ><FaSignal className="icons"/> Stats Info</li>
                 </Link> 
             </div>
 

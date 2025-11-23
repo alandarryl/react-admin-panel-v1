@@ -20,10 +20,27 @@ thead td{
     padding: 15px;
 }
 
+@media (max-width: 1200px){
+
+    table{
+        width: calc(100% - 300px);
+    }
+
+}
+
 @media (max-width: 800px){
 
-    .table{
+    table{
         width: calc(100% - 300px);
+    }
+
+}
+
+@media (max-width: 500px){
+
+    table{
+        width: calc(100% - 250px);
+        overflow-y: hidden;
     }
 
 }

@@ -17,6 +17,7 @@ function Table(){
                     <td>Title</td>
                     <td>Status</td>
                     <td>Role</td>
+                    {/* <td>action</td> */}
                 </tr>
             </thead>
             <tbody>
